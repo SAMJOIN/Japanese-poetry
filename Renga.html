@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Рэнга</title>
+        <link rel="stylesheet" href="styles.css">
+        <link type="icon" href="logo.png" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<body style="text-align:center;" topmargin="100px"> 
+
+<div id="page">
+<header>
+    <a class="header" href="TestWeb.html">Хокку</a>
+    <a class="header" href="Tanka.html">Танка</a>
+    <a class="header" href="Sanru.html">Сэнрю</a>
+    <a class="header" href="Renga.html">Рэнга</a>
+</header>
+
+<div id="Content">
+<h2>По мотивам Басё</h2>
+<pre>
+По мотивам Басё
+аист
+снова на пруду
+плеск воды
+</pre>
+</div>
+
+<div id="Content">
+<h2>сгорбленный поневоле дорог</h2>
+<pre>
+Сгорбленный поневоле дорог
+Волевой человек идет.
+</pre>
+</div>
+
+<div id="Content">
+<h2>с крыши капель</h2>
+<pre>
+с крыши капель
+с крыши капель
+даже воздух пропитан
+щебетаньем синиц
+    
+(Мацусита Конобуки)
+    
+по краям опушённые инеем
+листки первоцветов
+    
+(Иса)
+    
+огородно- посадочные
+дни - приживись ты здесь,
+лунария
+    
+(Иса)
+    
+а по телевизору опять
+спортивный прогноз
+
+(Мацусита Конобуки)
+
+холодным утром
+еще звенит в паутине
+последний комар
+
+(Мацусита Конобуки)
+
+за долю секунды
+шапка молочной пены
+
+(Иса)
+
+раскинув руки
+бежит босиком по траве
+девушка в светлом
+
+(Иса)
+
+катаемся по кругу
+в пустом трамвае
+
+(Мацусита Конобуки)
+
+опять и опять тону
+в бездонном озере
+твоих глаз
+
+(Мацусита Конобуки)
+
+бабье лето, а повсюду
+только запах полыни
+
+(Иса)
+
+отметка в загранпаспорте
+перемешиваются
+свои-чужие ветра
+
+(Иса)
+
+из кафе доносятся
+звуки черного блюза
+
+(Мацусита Конобуки)
+
+на тихой воде
+средь кленовых листьев
+отраженье луны
+
+(Мацусита Конобуки)
+
+шеренгами, поодиночке
+и клиньями - перелетные птицы
+
+(Иса)
+
+за всеми новостями
+почти опустели
+чайные чашки
+
+(Иса)
+
+спугнув кота в парадной
+возвращаемся в уют
+
+(Мацусита Конобуки)
+
+едва припорошены
+утренним снегом
+поленья для камина
+
+(Мацусита Конобуки)
+
+мужики вырубают
+крест из речного льда
+
+(Иса)
+
+знаешь
+ты будешь звездой
+мне так решилось. ..
+
+(Иса)
+
+заполночь
+темнеет away в аське
+
+(Мацусита Конобуки)
+
+с первым лучом
+раскрывает цветки
+багульник
+
+(Мацусита Конобуки)
+
+упала в талый снег
+памятная монетка
+
+(Иса)
+</pre>
+</div>
+</div>
+
+
+<div id="Resource"><a class="res" href="http://japanpoetry.ru/hokku" target="_blank" title="Источник">Resource</a></div>
+<button class="addItem" onclick="openForm()">+</button>
+<div id="myForm">
+    <form class="form-container">
+        <h1>Вход</h1>
+        <p>(только администратор имеет право добавлять контент)</p>
+        <label for="login"><b>Логин</b></label>
+        <input type="text" placeholder="Введите логин" name="login" required>
+        <label for="psw"><b>Пароль</b></label>
+        <input type="password" placeholder="Введите пароль" name="psw" required>
+        <button class="close-btn" onclick="closeForm()">X</button>
+        <button class="signin-btn" onclick="">Вход</button>
+    </form>
+</div>
+
+<script src="Script.js"></script>
+</body>
+
+<div class = "newContent" id="newContent">
+    <form class="new-content-container">
+        <h1>Добавление произведения</h1>
+        <label for="contentTitle"><b>Название</b></label><br>
+        <input type="title" placeholder="Введите название" name="contentTitle" required><br>
+        <label for="contentAdd"><b>Основной текст</b></label><br>
+        <input type="text" placeholder="Введите основной текст" name="contentAdd" required>
+        <button type="button" class="close-btn-2" onclick="closeForm('newContent')">X</button>
+    </form>
+</div>
+
+    
+</html>
